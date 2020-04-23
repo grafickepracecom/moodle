@@ -205,7 +205,8 @@ class api {
         $mapping = [
             'givenName' => 'firstname',
             'surname' => 'lastname',
-            'userPrincipalName' => 'email',
+            'mail' => 'email',
+            'userPrincipalName' => 'username',
             'displayName' => 'alternatename',
             'officeLocation' => 'address',
             'mobilePhone' => 'phone1',
